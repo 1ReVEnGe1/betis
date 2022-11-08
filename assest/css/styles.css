@@ -94,4 +94,36 @@
     color: black;
     font-weight: 700;
 }
-
+.idea-box{
+    width: 190px;
+    height: 134px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    border: 1px solid #E5E5E5;
+    border-radius: 12px;
+    text-decoration: none;
+}
+a.idea-box:hover{
+    background-color: var(--bluedark);
+    color: white;
+}
+a.idea-box:hover p{
+    color: white;
+}
+a.idea-box:hover i{
+    color: white;
+}
+a.idea-box p{
+    position: relative;
+    top: 15px;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+.font-awesome-style{
+    font-size: 33px;
+    color: var(--bluedark);
+    
+}
