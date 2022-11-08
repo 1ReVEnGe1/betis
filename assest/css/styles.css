@@ -1,0 +1,97 @@
+:root{
+--bluedark:#002D64;
+--lightblue:#019CA8;
+}
+@font-face {
+    font-family: iransans;
+    src: url(../fonts/IRANSansWeb\(FaNum\)_Light.woff);
+}
+@font-face {
+    font-family: iranyekan;
+    src: url(../fonts/IRANYekanWebBold.woff);
+}
+
+.logo-margin-right{
+    margin-right: 70px;
+}
+.logosize{
+    width: 160.2px;
+    height: 36px;
+    margin-right: -45px!important;
+    margin-left: 210px;
+}
+@media screen and (max-width:1199px) {
+    .logosize{margin: 5px 0 0 80px;} 
+}
+
+.rtl-dir{
+    direction: rtl;
+}
+.bg-ventures{
+    background-color:var(--bluedark)!important;
+    
+}
+.container{
+    font-family: iransans;
+    font-size: 14px!important;
+}
+.btn-style{
+    width: 143px;
+    height: 42px;
+    background-color:var(--bluedark);
+    color: white;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 0px solid black;
+    margin-top: 16px;
+}
+.line-height{
+    display: inline-block;
+    position: relative;
+    top: -3px;
+}
+.img-header-style{
+    border-radius: 12px;
+    opacity: 0.9;
+    width: 100%;
+}
+.heading{
+    font-size: 26px;
+    font-weight: 700;
+    font-family: iranyekan;
+    direction: rtl;
+    margin: 0!important;
+}
+.sub-heading{
+    margin: 0!important;
+    direction: rtl;
+    color:var(--bluedark);
+    font-weight: 700;
+    font-size: 14px;
+}
+.img-about3{
+    border-radius: 12px;
+    height:173px!important;
+    width: 100%;
+}
+.img-about2{
+    border-radius: 12px;
+    width: 100%;
+    height:173px!important;
+}
+.img-about{
+    border-radius: 12px;
+    height: 373px!important;
+    width: 100%;
+}
+.about-us-heading{
+    font-size: 12px;
+    color: var(--lightblue);
+    font-weight: 400;
+}
+.about-us-subheading{
+    font-size: 24px;
+    color: black;
+    font-weight: 700;
+}
+

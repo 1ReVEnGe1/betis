@@ -1,0 +1,1331 @@
+@font-face {
+    font-family: 'IRANSans-bold';
+    src: url('../fonts/eot/IRANSansWeb\(FaNum\)_Bold.eot');
+
+    src: url('../fonts/eot/IRANSansWeb\(FaNum\)_Bold.eot') format('eot'),
+        url('../fonts/woff2/IRANSansWeb\(FaNum\)_Bold.woff2') format('woff2'),
+        url('../fonts/woff/IRANSansWeb\(FaNum\)_Bold.woff') format('woff'),
+        url('../fonts/ttf/IRANSansWeb\(FaNum\)_Bold.ttf') format('ttf');
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: 'IRANSans-md';
+    src: url('../fonts/eot/IRANSansWeb\(FaNum\)_Medium.eot');
+
+    src: url('../fonts/eot/IRANSansWeb\(FaNum\)_Medium.eot') format('eot'),
+        url('../fonts/woff2/IRANSansWeb\(FaNum\)_Medium.woff2') format('woff2'),
+        url('../fonts/woff/IRANSansWeb\(FaNum\)_Medium.woff') format('woff'),
+        url('../fonts/ttf/IRANSansWeb\(FaNum\)_Medium.ttf') format('ttf');
+    font-weight: 500;
+}
+
+
+@font-face {
+    font-family: 'IRANSans-ulight';
+    src: url('../fonts/eot/IRANSansWeb\(FaNum\)_UltraLight.eot');
+
+    src: url('../fonts/eot/IRANSansWeb\(FaNum\)_UltraLight.eot') format('eot'),
+        url('../fonts/woff2/IRANSansWeb\(FaNum\)_UltraLight.woff2') format('woff2'),
+        url('../fonts/woff/IRANSansWeb\(FaNum\)_UltraLight.woff') format('woff'),
+        url('../fonts/ttf/IRANSansWeb\(FaNum\)_UltraLight.ttf') format('ttf');
+    font-weight: 200;
+}
+
+
+@font-face {
+    font-family: 'IRANSans-light';
+    src: url('../fonts/eot/IRANSansWeb\(FaNum\)_Light.eot');
+
+    src: url('../fonts/eot/IRANSansWeb\(FaNum\)_Light.eot') format('eot'),
+        url('../fonts/woff2/IRANSansWeb\(FaNum\)_Light.woff2') format('woff2'),
+        url('../fonts/woff/IRANSansWeb\(FaNum\)_Light.woff') format('woff'),
+        url('../fonts/ttf/IRANSansWeb\(FaNum\)_Light.ttf') format('ttf');
+    font-weight: 300;
+}
+
+
+@font-face {
+    font-family: 'IRANSans';
+    src: url('../fonts/eot/IRANSansWeb\(FaNum\).eot');
+
+    src: url('../fonts/eot/IRANSansWeb\(FaNum\).eot') format('eot'),
+        url('../fonts/woff2/IRANSansWeb\(FaNum\).woff2') format('woff2'),
+        url('../fonts/woff/IRANSansWeb\(FaNum\).woff') format('woff'),
+        url('../fonts/ttf/IRANSansWeb\(FaNum\).ttf') format('ttf');
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: 'icon-btc';
+    src:  url('../fonts/icon-btc.eot');
+    src:  url('../fonts/icon-btc.eot') format('embedded-opentype'),
+      url('../fonts/icon-btc.ttf') format('truetype'),
+      url('../fonts/icon-btc.woff') format('woff'),
+      url('../fonts/icon-btc.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icon-btc' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-agile:before {
+    content: "\e900";
+    color: #002d64;
+  }
+  .icon-arrow-top:before {
+    content: "\e901";
+    color: #fff;
+  }
+  .icon-first-aid-kit:before {
+    content: "\e902";
+    color: #002d64;
+  }
+  .icon-flash:before {
+    content: "\e903";
+    color: #002d64;
+  }
+  .icon-logout:before {
+    content: "\e904";
+    color: #002d64;
+  }
+  .icon-origami:before {
+    content: "\e905";
+    color: #002d64;
+  }
+  .icon-reading:before {
+    content: "\e906";
+    color: #002D64;
+  }
+  .icon-register:before {
+    content: "\e907";
+    color: #002D64;
+  }
+  .icon-rocket:before {
+    content: "\e908";
+    color: #002d64;
+  }
+  .icon-save-money:before {
+    content: "\e909";
+    color: #002d64;
+  }
+  .icon-shop-bag:before {
+    content: "\e90a";
+    color: #002d64;
+  }
+  .icon-smart-factory:before {
+    content: "\e90b";
+    color: #002d64;
+  }
+  .icon-social-media:before {
+    content: "\e90c";
+    color: #002d64;
+  }
+  .icon-upload:before {
+    content: "\e90d";
+    color: #002d64;
+  }
+  
+
+
+.IRANSansBold {
+    font-family: IRANSans-bold !important;
+    font-weight: bold;
+}
+
+.IRANSansMedium {
+    font-family: IRANSans-md !important;
+    font-weight: 500;
+}
+
+
+.IRANSansUltraLight {
+    font-family: IRANSans-ulight !important;
+    font-weight: 200;
+}
+
+.IRANSansLight {
+    font-family: IRANSans-light !important;
+    font-weight: 300;
+}
+
+.IRANSans {
+    font-family: IRANSans !important;
+    font-weight: normal;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: IRANSans !important;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: IRANSans !important;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    font-family: IRANSans !important;
+}
+
+span {
+    display: inline-block;
+    font-family: IRANSans !important;
+}
+
+figure {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: IRANSans-bold !important;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* betis header */
+
+.betis-header {
+    width: 100%;
+    padding: 12px 0;
+    background: transparent;
+    z-index: 1000;
+}
+
+.betis-header-logo {
+    width: 160px;
+    height: 36px;
+}
+
+.betis-header-logo a {
+    width: 100%;
+    height: 100%;
+}
+
+.betis-header-logo a img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.betis-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.betis-nav-list {
+    display: flex;
+    font-style: normal;
+    padding: 20px;
+}
+
+.betis-nav-list li {
+    padding: 0 25px;
+}
+
+.betis-nav-list li a {
+    font-family: 'IRANSansX';
+    font-size: 14px;
+    line-height: 21px;
+    color: #000;
+    transition: all 0.3s;
+}
+
+.betis-nav-list li a:hover {
+    color: #00bcd4;
+}
+
+.bts-nav-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.bts-nav-btn li {
+    padding: 0 7px;
+}
+
+.bts-nav-btn li a {
+    font-family: 'IRANSansX';
+    font-size: 14px;
+    line-height: 21px;
+    border-radius: 8px;
+    width: 141px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+}
+
+.rent-link {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+/* 
+.rent-link:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000000;
+} */
+
+.account-link {
+    background: #002D64;
+    border: 1px solid #002D64;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.account-link:hover {
+    background-color: transparent;
+    color: #002D64;
+}
+
+.account-link span::before {
+    transition: 0.3s;
+}
+
+.account-link:hover span::before {
+    color: #002D64;
+}
+
+.account-link span {
+    margin-right: 10px;
+}
+
+/* 
+.account-link:hover {
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000000;
+} */
+
+.betis-bars {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    color: rgba(0, 0, 0, .5);
+    border-color: rgba(0, 0, 0, .1);
+}
+
+.betis-bars-box {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ap-menu-close-btn {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.ap-menu-close-btn::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 2px;
+    background-color: #212121;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 13px;
+    left: 0px;
+    z-index: 2000;
+    cursor: pointer;
+}
+
+.ap-menu-close-btn::before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 2px;
+    background-color: #212121;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 13px;
+    left: 0px;
+}
+
+.yr-header-bg {
+    width: 100%;
+    margin: 40px 0;
+}
+
+.yr-header-bg-img {
+    width: 100%;
+    height: 499px;
+    position: relative;
+}
+
+.yr-header-bg-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12px;
+}
+
+.yr-header-bg-img2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    z-index: 50;
+}
+
+
+/* bts company */
+
+.bts-company {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.bts-company-text {
+    width: 100%;
+    padding: 10px 0;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #E5E5E5;
+}
+
+.bts-company-head {
+    font-size: 28px;
+    letter-spacing: -0.05em;
+    color: #000000;
+}
+
+.bts-company-text p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #002D64;
+}
+
+.bts-company-logo img {
+    max-height: 50px;
+    object-fit: contain;
+    object-position: center;
+}
+
+/* swiper */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* bts about us */
+
+.bts-aboutus {
+    width: 100%;
+    margin: 100px 0;
+}
+
+.bts-aboutus-img {
+    width: 100%;
+    height: 363px;
+}
+
+.bts-aboutus-img {
+    width: 100%;
+    height: 363px;
+}
+
+.bts-aboutus-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+}
+
+.bts-aboutus-box {
+    width: 100%;
+    height: 363px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bts-aboutus-box img {
+    width: 100%;
+    height: 173px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+}
+
+.bts-aboutus-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+
+.bts-aboutus-content p {
+    font-size: 14px;
+    line-height: 26px;
+    color: #757575;
+    width: 90%;
+    margin: 24px 0;
+    white-space: pre-line;
+}
+
+.bts-aboutus-content-text {
+    font-size: 12px;
+    line-height: 21px;
+    color: #019CA8;
+    margin-bottom: 10px;
+}
+
+.bts-aboutus-content-head {
+    font-size: 24px;
+    line-height: 41px;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.bts-aboutus-link {
+    background: #002D64;
+    border: 1px solid #002D64;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 188px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.bts-aboutus-link span {
+    margin-right: 10px ;
+}
+
+.bts-aboutus-link:hover {
+    background-color: transparent;
+    color: #002D64;
+}
+
+.bts-aboutus-link span::before {
+    transition: 0.3s;
+}
+
+.bts-aboutus-link:hover span::before {
+    color: #002D64;
+}
+
+/* bts info */
+
+.bts-info {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.bts-info-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bts-info-items {
+    border: 1px solid #E5E5E5;
+    border-radius: 12px;
+    padding: 30px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    transition: all 0.4s;
+    color: #000000;
+}
+
+.bts-info-items-img {
+    margin-bottom: 12px;
+}
+
+.bts-info-items-img span {
+    font-size: 34px;
+}
+
+.bts-info-items-img span::before  {
+    transition: 0.3s;
+}
+
+.bts-info-items:hover .bts-info-items-img span::before , .bts-activity-items:hover .bts-info-items-img span::before {
+    color: #fff;
+}
+.bts-info-items-text {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.bts-info-items:hover {
+    background:#002D64;
+    color: #fff;
+}
+
+.bts-info-box {
+    margin: 60px 0 !important;
+}
+
+.bts-activity-box {
+    width: 100%;
+    margin: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bts-activity-items {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #E5E5E5;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    transition: all 0.4s;
+    color: #000000;
+    padding: 45px 0;
+    margin-bottom: 17px;
+}
+
+.bts-activity-items:hover {
+    background:#002D64;
+    color: #fff;
+}
+
+.bts-activity-items p {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #757575;
+    width: 90%;
+    transition: all 0.4s;
+}
+
+.bts-activity-items:hover p {
+    color: #fff;
+}
+
+/* betis footer */
+
+.betis-footer {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.betis-footer-box {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.96);
+}
+
+.betis-footer-socail-head {
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.betis-footer-socail-head a {
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.betis-footer-socail {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.ap-final-social-links {
+    display: flex;
+    align-items: center;
+}
+
+.ap-final-social-links li {
+    margin-left: 30px;
+}
+
+.ap-final-social-links li a {
+    font-size: 20px;
+    color: #fafafa;
+    transition: all 0.3s;
+}
+
+.ap-final-social-links li a:hover {
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+
+.ap-footer {
+    width: 100%;
+    padding: 35px 0;
+    background-color: #000;
+}
+
+.ap-footer-row {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ap-footer-img {
+    width: 109px;
+    height: 109px;
+    margin: 10px;
+}
+
+.ap-footer-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.ap-footer-shopping {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ap-footer-shopping-head {
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #F8F8F8;
+}
+
+.ap-footer-shopping-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ap-footer-shopping-list li {
+    width: 100%;
+    margin: 8px 0;
+}
+
+.ap-footer-shopping-list li a {
+    transition: all 0.3s;
+    font-size: 14px;
+    line-height: 21px;
+    color: #C4C4C4;
+}
+
+.ap-footer-shopping-list li a:hover {
+    color: #0570d5;
+}
+
+.ap-footer-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ap-footer-box p {
+    width: 80%;
+    font-size: 14px;
+    line-height: 21px;
+    color: #C4C4C4;
+    margin: 25px 0;
+}
+
+.ap-footer-box a {
+    font-size: 12px;
+    line-height: 18px;
+    color: #C4C4C4;
+    transition: all 0.3s;
+}
+
+.ap-footer-box a:hover {
+    color: #00bcd4;
+}
+
+.betis-footer-text {
+    width: 100%;
+    background-color: #000;
+}
+
+.betis-footer-text-line {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #424242;
+    padding: 23px 0;
+}
+
+.betis-footer-text-line p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+/* bts form */
+
+.bts-form {
+    width: 100%;
+    margin: 60px 0;
+}
+
+.bts-form-box {
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 12px;
+    padding: 70px 100px;
+}
+
+.request-form {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.bts-form-input {
+    width: 100%;
+    position: relative;
+    padding: 35px 0;
+}
+
+.bts-form-input-item {
+    width: 100%;
+    position: relative;
+}
+
+.bts-form-input-item input , .bts-form-input-item textarea {
+    border: 1px solid #D0D0D1;
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.bts-form-input-label {
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    font-family: IRANSans-bold !important;
+    margin-bottom: 14px;
+}
+
+.bts-form-input-items2 {
+    height: 133px !important;
+}
+
+.bts-form-input-upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    opacity: 0;
+    z-index: 0;  
+}
+
+.btc-input-upload {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #D0D0D1;
+    padding: 30px 35px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.btc-input-upload-desc {
+    display: inline-block;
+    width: 100%;
+    color: #B7B9C1;
+    font-size: 14px;
+}
+
+.btc-input-upload .icon-upload {
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+/* betis news */
+
+.bts-blog {
+    width: 100%;
+    margin: 60px 0;
+}
+
+.yr-news {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.yr-news-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.yr-news-content {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.mynews-article {
+    width: 100%;
+    text-align: center;
+}
+
+.mynews-header {
+    width: 100%;
+    height: 212px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mynews-header-img {
+    width: 100%;
+    height: 100%;
+}
+
+.mynews-header-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 16px;
+}
+
+.mynews-header-logo {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+}
+
+.mynews-header-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.mynews-body {
+    width: 100%;
+    padding: 24px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mynews-body-head {
+    margin-bottom: 14px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    text-align: center;
+}
+
+.mynews-body-head a {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    text-align: center;
+}
+
+.mynews-date {
+    font-size: 14px;
+    line-height: 24px;
+    color: #BDBDBD;
+}
+
+.sabt-text {
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.sabt-box {
+    width: 100%;
+    display: flex;
+}
+
+.sabt-input {
+    width: 70%;
+    height: 48px;
+    background: #F5F5F5;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.sabt-btn {
+    width: 30%;
+    outline: none;
+    border: none;
+    background: #002D64;
+    border-radius: 8px 0px 0px 8px;
+    color: #fff;
+}
+
+/* Position */
+
+.btc-position {
+    margin-bottom: 130px;
+}
+.btc-position .bts-info-text {
+    margin-bottom: 55px;
+}
+.btc-position-item {
+    background-image: url('../img/position-bg.png');
+    background-size: cover;
+    padding: 62px 40px;
+    width: 100%;
+    border: 1px solid #E5E5E5;
+    border-radius: 8px;
+    height: 100%;
+    text-align: center;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bts-form-info p {
+    margin-top: 80px;
+    font-size: 14px;
+}
+
+.bts-form-info ul {
+    margin-top: 40px;
+}
+
+.bts-form-info ul li {
+    font-size: 12px;
+    line-height: 21px;
+    position: relative;
+    padding-right: 32px;
+    margin-bottom: 15px;
+}
+
+.bts-form-info ul li::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #002D64;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bts-form-info ul li::after {
+    content: '';
+    display: inline-block;
+    width: 11px;
+    height: 5px;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 6px;
+    right: 4px;
+}
+
+
+
+@media only screen and (max-width: 1400px) {
+
+    .betis-nav-list {
+        padding: 20px 0;
+    }
+
+    .betis-nav-list li {
+        padding: 0 15px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    .betis-intro-box-bg {
+        padding: 90px 50px;
+    }
+
+    .yr-info-list li {
+        margin: 0 5px;
+    }
+
+    .yr-info-list-img {
+        margin-left: 10px;
+    }
+
+    .yr-info-list li a span {
+        font-size: 14px;
+    }
+
+}
+
+
+@media only screen and (max-width: 992px) {
+
+    .bts-nav-btn {
+        flex-direction: column;
+        position: absolute;
+        top: 400px;
+        right: -100%;
+        width: auto;
+        transition: all 1s;
+    }
+
+    .bts-nav-btn-show {
+        right: 0;
+    }
+
+    .bts-nav-btn li {
+        margin: 10px;
+    }
+
+    .betis-header-logo2 {
+        display: none;
+    }
+
+    .betis-intro-btn button {
+        width: 90px;
+        height: 90px;
+    }
+
+    .betis-nav-list {
+        flex-direction: column;
+        background: #fff;
+        width: 250px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        transition: all 1s;
+        z-index: 99999;
+        padding: 50px 20px;
+    }
+
+    .betis-nav-list li {
+        padding: 20px 15px;
+    }
+
+    .betis-nav-list-show {
+        right: 0;
+        
+    }
+
+    .bts-aboutus-content p {
+        width: 100%;
+    }
+    .bts-aboutus-content {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .bts-info-items {
+        margin-bottom: 30px;
+    }
+
+    .bts-form-box {
+        padding: 70px 60px;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .betis-intro-box-bg {
+        padding: 40px;
+    }
+
+    .handle-btn {
+        display: none;
+    }
+
+    .bts-company-text {
+        border-left: 0;
+        border-bottom: 1px solid #E5E5E5;
+        margin-bottom: 20px;
+    }
+
+    .bts-form-box {
+        padding: 70px 30px;
+    }
+
+    .btc-position-item {
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+}
+
+
+@media only screen and (max-width: 576px) {
+
+    .yr-header-main-head {
+        font-size: 28px;
+    }
+
+    .yr-header-main-text p {
+        font-size: 14px;
+    }
+
+    .betis-intro-head {
+        font-size: 20px;
+    }
+
+    .accordion-button {
+        font-size: 14px;
+    }
+
+    .betis-footer-socail-head a {
+        font-size: 22px;
+    }
+
+    .betis-footer-text-line p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .ap-footer-box p {
+        width: 90%;
+    }
+
+    .betis-nav-list {
+        width: 70%;
+    }
+
+    .bts-form-input {
+        padding: 20px 0;
+    }
+
+    .ap-footer-shopping {
+        margin-bottom: 40px;
+    }
+    .yr-header-bg-img {
+        height: 300px;
+    }
+
+    .bts-company-head {
+        font-size: 26px;
+    }
+
+}
+
+@media only screen and (max-width: 413px) {
+
+    .betis-footer-text-line p {
+        font-size: 10px;
+    }
+
+    .yr-info-list-img {
+        width: 59px;
+        height: 55px;
+    }
+
+    .yr-info-list li a span {
+        font-size: 12px;
+    }
+
+}
