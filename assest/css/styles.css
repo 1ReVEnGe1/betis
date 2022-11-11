@@ -25,7 +25,7 @@
 .logosize{
     width: 160.2px;
     height: 36px;
-    margin-right: -45px!important;
+    margin-right: 0px!important;
     margin-left: 210px;
 }
 @media screen and (max-width:1199px) {
@@ -37,7 +37,9 @@
 }
 .bg-ventures{
     background-color:var(--bluedark)!important;
-    
+}
+a.nav-link:hover{
+    color: var(--lightdark)!important;
 }
 .container{
     font-family: iransans;
@@ -162,8 +164,9 @@ a.activity-box:hover{
     color: white;
 }
 a.activity-box:hover p{
-    color: white;
+    color: white!important;
 }
+
 a.activity-box:hover i{
     color: white;
 }
@@ -182,7 +185,7 @@ a.activity-box2:hover{
     color: white;
 }
 a.activity-box2:hover p{
-    color: white;
+    color: white!important;
 }
 a.activity-box2:hover i{
     color: white;
@@ -201,3 +204,4 @@ a.activity-box2 p{
     font-size: 14px;
     font-weight: 400!important;
 }
+
