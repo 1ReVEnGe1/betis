@@ -247,12 +247,111 @@
     </div>    
 </section>
 
-
 <!--End of Activity section-->
 
 
+<!--Start invetment request-->
+    <section>
+        <div class="container d-flex justify-content-center">
+            <div class="form-section border d-flex justify-content-center">
+                <div class="form-section">
+                    <div class="row rtl-dir" style="margin-bottom: 58px;margin-top: 69px;">
+                        <div class="col-12 text-center">
+                            <h4 class="about-us-heading">درخواست سرمایه گذاری</h4>
+                            <h2 class="about-us-subheading">درخواست سرمایه گذاری خود را ثبت کنید</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <form action="" class="rtl-dir" >
+                                <div class="row  ">
+                                    <!--row1-->
+                                    <div class="col-lg-6 d-flex justify-content-center flex-column">
+                                        <label for="business">نام کسب و کار</label>
+                                        <input type="text" id="business" name="business" placeholder="نام کسب و کار" >
+                                    </div>
+                                    <div class="col-lg-6 d-flex justify-content-center flex-column">
+                                        <label for="email-business">ایمیل</label>
+                                        <input type="email" id="email-business" name="email-business" placeholder="ایمیل" >
+                                    </div>
+                                    <!--row2-->
+                                    <div class="col-lg-6 d-flex justify-content-center flex-column">
+                                        <label for="number-business">شماره تماس</label>
+                                        <input type="number" id="number-business" name="number-business" placeholder="شماره تماس" >
+                                    </div>
+                                    <div class="col-lg-6 d-flex justify-content-center flex-column">
+                                        <label for="link-business">لینک وب سایت یا اپلیکیشن شما</label>
+                                        <input type="url" id="link-business" name="link-business" placeholder="لینک وب سایت یا اپلیکیشن شما" >
+                                    </div>
+                                    <!--row3-->
+                                    <div class="col-lg-6 d-flex justify-content-center flex-column">
+                                        <label for="members-number">تعداد اعضای تیم</label>
+                                        <input type="number" id="members-number" name="members-number" placeholder="تعداد اعضای  تیم" >
+                                    </div>
+                                    <div class="col-lg-6 d-flex justify-content-center flex-column">
+                                        <label for="established-year">سال تاسیس</label>
+                                        <input type="number" id="established-year" name="established-year" placeholder="سال تاسیس" >
+                                    </div>
+                                    <!--row4-->
+                                    <div class="col-lg-12 d-flex justify-content-center flex-column">
+                                        <label for="deck-pitch">بارگذاری Deck Pitch یا پروپوزال</label>
+                                        <label for="deck-pitch" class="proposal-label text-center border ">
+                                            <i class="fa-solid fa-2x fa-upload"></i>
+                                            <input type="file" id="deck-pitch" name="deck-pitch" class="d-none" >
+                                            <br>
+                                            <p class="upload-description">برای آپلود روی فایل ها کلیک کنید یا به این قسمت بکشید.</p>
+                                            <br>
+                                            <span id="imageName"></span>
+                                        </label>
+                                    </div>
+                                    <!--row5-->
+                                    <div class="col-lg-12 d-flex justify-content-center flex-column">
+                                        <label for="financial-file">فایل مالی در صورت موجود بودن (Financial Projection)</label>
+                                        <label for="financial-file" class="proposal-label text-center border">
+                                            <i class="fa-solid fa-2x fa-upload"></i>
+                                            <input type="file" id="financial-file" name="financial-file" class="d-none fff" >
+                                            <br>
+                                            <p class="upload-description">برای آپلود روی فایل ها کلیک کنید یا به این قسمت بکشید.</p>
+                                            <br>
+                                            <span id="imageName2"></span>
+                                        </label>    
+                                    </div>
+                                    <!--row6-->
+                                    <div class="col-lg-12">
+                                        <label for="business-brief">شرح خلاصه کسب و کار</label>
+                                        <input type="text" id="business-brief" name="business-brief" placeholder="شرح خلاصه کسب و کار" class="text-input-style">
+                                    </div>
 
+                                </div>    
+                            </form>
+                        </div>    
+                    </div>
+                </div>    
+            </div>      
+        </div>
+    </section>
+<!--End of invetment request-->
 
     <script src="assest/js/bootstrap.bundle.min.js"></script>
+    <script>
+        let input = document.getElementById("deck-pitch");
+        let imageName = document.getElementById("imageName")
+
+        input.addEventListener("change", ()=>{
+            let inputImage = document.querySelector("input[type=file]").files[0];
+
+            imageName.innerText = inputImage.name;
+        })
+    </script>
+    <script>
+        let input2 = document.getElementById("financial-file");
+        let imageName2 = document.getElementById("imageName2")
+
+        input2.addEventListener("change", ()=>{
+            let inputImage2 = document.querySelector(".fff").files[0];
+
+            imageName2.innerText = inputImage2.name;
+        })
+    </script>
 </body>
 </html>
