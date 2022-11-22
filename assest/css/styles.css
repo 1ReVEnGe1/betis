@@ -223,6 +223,7 @@ input{
 .form-section{
     width: 75%;
     border-radius: 12px;
+    padding-bottom:40px ;
 }
 ::placeholder {
     padding-right: 10px;
