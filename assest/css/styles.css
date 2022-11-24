@@ -219,16 +219,13 @@ input{
     border-radius: 8px;
     border: 1px solid #D0D0D1;
     color: #A0A0A3;
+    
 }
 .form-section{
     width: 75%;
     border-radius: 12px;
     padding-bottom:40px ;
 }
-::placeholder {
-    padding-right: 10px;
-    
-  }
 .proposal{
    display: none;
 }
@@ -249,4 +246,110 @@ input{
     padding-top: 20px;
     padding-bottom: 133px;
     padding-right: 10px;
+}
+.news-picture-style{
+    width: 100%;
+    height: 212px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+div.news{
+    margin-bottom: 82px;
+}
+div.news h4{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 14px;
+}
+div.news p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--lightdark);
+    margin-top: 10px;
+}
+.news-picture1{
+    background-image: url('../img/blog4.png');
+}
+.news-picture2{
+    background-image: url('../img/blog1.png');
+}
+.news-picture3{
+    background-image: url('../img/blog2.png');
+}
+.news-picture4{
+    background-image: url('../img/blog3.png');
+}
+.footer-top{
+    width: 100%;
+    background-color: #070707;
+    height: 96px;
+}
+.footer-top-social-media i{
+    font-size: 30px;
+    color:#D9D9D9;
+    margin-top: 43px;
+}
+.footer-top-logo img{
+    margin-top: 28px;
+}
+.focus-border:focus{
+    outline: none;
+}
+form.form-padding input{
+    padding: 0 20px;
+}
+.email-submit{
+    display: inline;
+    width: 50%;
+    height: 44px;
+    position: relative;
+    left: -10px;
+    z-index: 10;
+}
+.email-submit:focus{
+    outline: none;
+}
+div.footer-bottom-email label{
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin-top: 68px;
+    margin-bottom: 32px;
+}
+.email-submit-button{
+    display: inline;
+    width: 85px;
+    height: 45px;
+    border-radius: 9px 0 0 9px;
+    border: 0px;
+    background-color: #002d64;
+    color: white;
+    position: relative;
+    z-index: 11;
+}
+div.footer-bottom-description h5{
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin-top: 68px;
+    margin-bottom: 32px;
+}
+div.footer-bottom-description p{
+    font-size: 13.8px;
+    font-weight: 400;
+    color: #D9D9D9;
+    margin-top: 10px;
+    margin-bottom: 32px;
+}
+div.footer-bottom-subjects{
+    margin-top:38px;
+    
+}
+div.footer-bottom-subjects a{
+    text-decoration: none;
+    color: #f5f5f5;
+    margin-left: 120px;
 }
