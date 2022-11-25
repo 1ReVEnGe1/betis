@@ -91,9 +91,10 @@ a.nav-link:hover{
 }
 .img-about{
     border-radius: 12px;
-    height: 373px!important;
+    
     width: 100%;
 }
+
 .about-us-heading{
     font-size: 12px;
     color: var(--lightblue);
@@ -257,6 +258,18 @@ input{
 div.news{
     margin-bottom: 82px;
 }
+@media screen and (max-width:575px) {
+    div.news-picture-style{
+        width: 60%;
+        margin-right: 98px;
+    }
+}
+@media screen and (max-width:522px) {
+    div.news-picture-style{
+        width: 100%;
+        margin-right: 0px;
+    }
+}
 div.news h4{
     font-size: 16px;
     font-weight: 700;
@@ -287,10 +300,24 @@ div.news p{
     background-color: #070707;
     height: 96px;
 }
+
 .footer-top-social-media i{
     font-size: 30px;
     color:#D9D9D9;
     margin-top: 43px;
+}
+@media screen and (max-width:443px) {
+    .footer-top-social-media i{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:411px) {
+    .footer-top-social-media i.fa-facebook-f{
+        display: none;
+    }
+    .footer-top-social-media i.fa-twitter{
+        display: none;
+    }
 }
 .footer-top-logo img{
     margin-top: 28px;
@@ -352,4 +379,24 @@ div.footer-bottom-subjects a{
     text-decoration: none;
     color: #f5f5f5;
     margin-left: 120px;
+    font-size: 14px;
+    width: 80px;
+}
+
+.news-button{
+    display: block;
+    position: relative;
+    top: 20px;
+    left: 15px;
+    width: 30%;
+    height: 28px;
+    font-size: 12px;
+    border: 0px;
+    border-radius: 6px;
+    background-color: #002d64;
+    color: white;
+    position: relative;
+}
+.ltr-dir{
+    direction: ltr!important;
 }
