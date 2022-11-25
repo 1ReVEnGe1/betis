@@ -400,3 +400,9 @@ div.footer-bottom-subjects a{
 .ltr-dir{
     direction: ltr!important;
 }
+button:hover{
+    border: 3px solid var(--bluedark);
+    background-color:#eef0f1;
+    color: var(--bluedark);
+    font-weight: bold;
+}
